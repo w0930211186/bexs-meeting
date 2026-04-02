@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: bexs-meeting
+    runtime: node
+    buildCommand: ""
+    startCommand: node server.js
+    envVars:
+      - key: API_KEY
+        value: bexs2026
